@@ -10,14 +10,22 @@
   </head>
   <body>
     <section class="section-center">
-      <h3>tired of boring lorem ipsum?</h3>
+      <h3>Welcome to our Lorem Ipsum Generator!</h3>
+      <p>
+        Tired of the same old Lorem Ipsum? Use our generator to create custom Lorem Ipsum text for your projects! Simply follow these steps:
+      </p>
+      <p>
+        <span>Enter the desired number of paragraphs (between 1 and 9) in the input field above and click the "Generate" button. You'll get fresh Lorem Ipsum text perfect for your designs, websites, or any creative project!</span>
+      </p>
+
       <form class="lorem-form">
-        <label for="amount">paragraphs:</label>
-        <input type="number" name="amount" id="amount" placeholder="5">
-        <button type="submit" class="btn">generate</button>
+        <label for="amount">Number of Paragraphs:</label>
+        <input type="number" name="amount" id="amount" placeholder="Enter a number (1-9)">
+        <button type="submit" class="btn">Generate</button>
       </form>
       <article class="lorem-text"></article>
     </section>
+
     <!-- javascript -->
     <script src="app.js"></script>
   </body>

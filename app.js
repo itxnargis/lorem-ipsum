@@ -24,7 +24,7 @@ form.addEventListener('submit', function(e) {
 
   //empty
   if(isNaN(value) || value <= 0 || value > 9){
-    result.innerHTML = `<p class= "result">${text[random]}</p>`;
+    result.innerHTML = `<p class="error">Please enter a number between 1 and 9.</p>`;
   } else {
     let temptext = text.slice(0, value);
     temptext = temptext.map(function(item){

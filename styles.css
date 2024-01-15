@@ -1,12 +1,12 @@
 /*
-=============== 
+===============
 Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -54,7 +54,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -179,7 +179,7 @@ main {
   place-items: center;
 }
 /*
-=============== 
+===============
 Lorem Ipsum
 ===============
 */
@@ -196,14 +196,16 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+p span {
+  font-weight: 600;
+}
 label {
   font-size: 1.25rem;
   color: var(--clr-primary-1);
 }
 input {
   padding: 0.25rem 0.5rem;
-
-  width: 4rem;
+  width: 25rem;
   border-radius: var(--radius);
   border: none;
   margin: 0 0.5rem;
